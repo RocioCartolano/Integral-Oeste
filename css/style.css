@@ -1,0 +1,86 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+body{
+    background-color: #DCF1D7;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.tarjeta{
+    background-color: #FCFFFF;
+    width: 700px;
+    height: 350px;
+    border: #FCFFFF;
+    border-radius: 30px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    font-family: 'Arapey', serif;
+}
+h1{
+    font-size: 2em;
+}
+.prueba{
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.parrafo{
+padding-left: 70px;
+padding-right: 10px;
+text-align: center;
+font-size: 18px;
+font-family: 'Arapey', serif;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 30px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 30px;
+}
+.contactUno{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 18px;
+font-family: 'Arapey', serif;
+}
+.contactDos{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: 'Arapey', serif;
+    }
+.form-group{
+    padding: 5px;
+}
+.form-control{
+    background-color:#b8c8a0;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 300px;
+}
+.alinear{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 13px;
+}
